@@ -125,23 +125,23 @@
 }
 
 .lang{
-    margin: 0px 3px 0px 3px;
-    padding: 20px;
+    margin: 0px 0.10rem 0px 0.10rem;
+    padding: 1.10rem;
 }
 
 .sign-in{
-    margin: 0px 3px 0px 3px;
-    padding: 10px;
+    margin: 0px 0.10rem 0px 0.10rem;
+    padding: 1.10rem;
 }
 
 .return{
-    margin: 0px 3px 0px 3px;
-    padding: 10px;
+    margin: 0px 0.10rem 0px 0.10rem;
+    padding: 1.10rem;
 }
 
 .cart{
-    margin: 0px 3px 0px 3px;
-    padding: 10px;
+    margin: 0px 0.10rem 0px 0.10rem;
+    padding: 1.10rem;
 }
 
 .nav-down{
@@ -152,8 +152,8 @@
 }
 
 .nav-all{
-    margin: 4px 8px 4px 8px ;
-    padding: 4px;
+    margin: 0.25rem 0.5rem 0.25rem 0.5rem ;
+    padding: 0.25rem;
 }
 
 .nav-remain{
@@ -162,33 +162,33 @@
 }
 
 .Deals{
-    margin: 4px 8px 4px 8px ;
-    padding: 4px;
+    margin: 0.25rem 0.5rem 0.25rem 0.5rem ;
+    padding: 0.25rem;
 }
 
 .buy{
-    margin: 4px 8px 4px 8px ;
-    padding: 4px;
+    margin: 0.25rem 0.5rem 0.25rem 0.5rem ;
+    padding: 0.25rem;
 }
 
 .service{
-    margin: 4px 8px 4px 8px ;
-    padding: 4px;
+    margin: 0.25rem 0.5rem 0.25rem 0.5rem ;
+    padding: 0.25rem;
 }
 
 .reg{
-    margin: 4px 8px 4px 8px ;
-    padding: 4px;
+    margin: 0.25rem 0.5rem 0.25rem 0.5rem ;
+    padding: 0.25rem;
 }
 
 .gift{
-    margin: 4px 8px 4px 8px ;
-    padding: 4px;
+    margin: 0.25rem 0.5rem 0.25rem 0.5rem ;
+    padding: 0.25rem;
 }
 
 .sell{
-    margin: 4px 8px 4px 8px ;
-    padding: 4px;
+    margin: 0.25rem 0.5rem 0.25rem 0.5rem ;
+    padding: 0.25rem;
 }
 
 .back-img {
@@ -218,9 +218,9 @@
     background-color: #fff;
     color: #000;
     font-size: 0.80rem;
-    margin: 20px;
+    margin: 1.25rem;
     width: 90%;
-    padding: 20px;
+    padding: 1.25rem;
     position: absolute;
     bottom: 0;
 }
@@ -247,8 +247,8 @@
 }
 
 .boxes{
-    margin: 20px 0 20px 0;
-    padding: 20px;
+    margin: 1.25rem 0 1.25rem 0;
+    padding: 1.25rem;
     width: 25%;
     border: 3px solid #fff;
     background-color: #fff;
@@ -273,7 +273,7 @@
     align-items: center;
     color: #fff;
     background-color: #526c8d;
-    padding: 20px;
+    padding: 1.25rem;
     border: 1px solid #526c8d;
 }
 
@@ -285,8 +285,8 @@
 
 .bot-know{
     color: #fff;
-    margin: 20px;
-    padding: 20px;
+    margin: 1.25rem;
+    padding: 1.25rem;
 }
 
 .bot-know ul{
@@ -303,7 +303,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 1rem;
 }
 
 .side-bar{
@@ -321,11 +321,11 @@
 .side-top-left{
     display: flex;
     align-items: center;
-    margin-left: 45px;
+    margin-left: 2.5rem;
 }
 
 .side-top-left i{
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 
 .side-top h2 i{
@@ -347,7 +347,7 @@
 }
 
 .side-content ul li{
-    padding: 15px;
+    padding: 1rem;
 }
 
 .side-content ul li i{
@@ -372,7 +372,7 @@
 }
 
 .stay i{
-    margin-right: 10px;
+    margin-right: 0.75rem;
 }
 
 .stay:hover{
@@ -393,4 +393,16 @@
 
 .sidebar-visible {
     width: 35%;
+}
+
+@media (max-width: 1200px){
+    .boxes{
+        width: 35%;
+    }
+}
+
+@media (max-width: 700px){
+        .boxes{
+            width: 100%;
+        }
 }
